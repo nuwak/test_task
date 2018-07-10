@@ -95,6 +95,7 @@ FROM | TO
 3   | 6
 6   | 8
 9   | 12
+
 Решение должно быть представлено в виде ссылки на https://www.db-fiddle.com/.
 
 [Решение](https://www.db-fiddle.com/f/oJYvPXrtLGZhxdWHbbBnrk/0)
