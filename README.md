@@ -90,7 +90,7 @@ INSERT INTO test (id) VALUES (1), (2), (3), (6), (8), (9), (12);
 
 >**Результат**:
 
->FROM | TO
+FROM | TO
 --- | ---
 3   | 6
 6   | 8
