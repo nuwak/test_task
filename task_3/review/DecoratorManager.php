@@ -28,6 +28,7 @@ class DecoratorManager extends DataProvider
      * @param string $password
      * @param CacheItemPoolInterface $cache
      */
+    //Передать сервис для работы с API и в нем будут устанавливаться хост, пользователь и пароль
     public function __construct($host, $user, $password, CacheItemPoolInterface $cache)
     {
         parent::__construct($host, $user, $password);
@@ -46,6 +47,7 @@ class DecoratorManager extends DataProvider
      */
     //Название не соответствует родительскому классу
     //Указать возвращаймы тип
+    //Название параметра $request, как в родительском классе
     public function getResponse(array $input)
     {
         try {

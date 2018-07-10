@@ -2,9 +2,10 @@
 namespace src\Integration; //src не используется в наймспейсе
 
 //Описание класса
+//Сделать интерфейс и имплементить
 class DataProvider
 {
-    //phpdoc и описание
+    //phpdoc, type, и описание
     private $host;
     private $user;
     private $password;
