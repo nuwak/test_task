@@ -4,7 +4,7 @@
 >Дополнительное задание: Написать SQL который вернет список книг, написанный 3-мя соавторами. Результат: книга - количество соавторов.
 >Решение должно быть представлено в виде ссылки на https://www.db-fiddle.com/
 
-[Решение](https://www.db-fiddle.com/f/6inWtYh33aUtJPAyKtADAZ/0)
+[Решение](https://www.db-fiddle.com/f/6inWtYh33aUtJPAyKtADAZ/1)
 
 ## Задание 2
 
@@ -98,7 +98,7 @@ FROM | TO
 
 > Решение должно быть представлено в виде ссылки на https://www.db-fiddle.com/.
 
-[Решение](https://www.db-fiddle.com/f/oJYvPXrtLGZhxdWHbbBnrk/0)
+[Решение](https://www.db-fiddle.com/f/oJYvPXrtLGZhxdWHbbBnrk/1)
 
 Добавил такое выражение `last_id+0` т.к. db-fiddle.com сглючил, вернул в поле FROM не корректные данные. На локальной машине запрос нормально отрабатывает без этого хака.
 
